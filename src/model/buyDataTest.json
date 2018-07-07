@@ -1,0 +1,578 @@
+[
+  {
+    "id": 1,
+    "date": "2018-03-01",
+    "food": "Milk",
+    "price": 45,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 2,
+    "date": "2018-03-01",
+    "food": "Bread",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 3,
+    "date": "2018-03-01",
+    "food": "Egg",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 4,
+    "date": "2018-03-01",
+    "food": "Salmon",
+    "price": 69,
+    "quantity": 4,
+    "units": "item"
+  },
+  {
+    "id": 5,
+    "date": "2018-03-01",
+    "food": "Apple",
+    "price": 15,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 6,
+    "date": "2018-03-01",
+    "food": "Strawberry Jam",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 7,
+    "date": "2018-03-01",
+    "food": "Beef Meat",
+    "price": 89,
+    "quantity": 500,
+    "units": "g"
+  },
+  {
+    "id": 8,
+    "date": "2018-03-01",
+    "food": "Lettuce",
+    "price": 49,
+    "quantity": 0.5,
+    "units": "item"
+  },
+  {
+    "id": 9,
+    "date": "2018-03-04",
+    "food": "Corn Flakes",
+    "price": 67,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 10,
+    "date": "2018-03-04",
+    "food": "Orange",
+    "price": 39,
+    "quantity": 3,
+    "units": "item"
+  },
+  {
+    "id": 11,
+    "date": "2018-03-04",
+    "food": "Sushi",
+    "price": 78,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 12,
+    "date": "2018-03-04",
+    "food": "Pork",
+    "price": 56,
+    "quantity": 300,
+    "units": "g"
+  },
+  {
+    "id": 13,
+    "date": "2018-03-04",
+    "food": "Curry Roux",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 14,
+    "date": "2018-03-04",
+    "food": "Potato",
+    "price": 29,
+    "quantity": 5,
+    "units": "item"
+  },
+  {
+    "id": 15,
+    "date": "2018-03-04",
+    "food": "Bread",
+    "price": 39,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 16,
+    "date": "2018-03-04",
+    "food": "Potato Chips",
+    "price": 15,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 17,
+    "date": "2018-03-04",
+    "food": "Coca Cora",
+    "price": 15,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 18,
+    "date": "2018-03-04",
+    "food": "Spinach",
+    "price": 24,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 19,
+    "date": "2018-03-10",
+    "food": "Orange Juice",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 20,
+    "date": "2018-03-10",
+    "food": "Tomato",
+    "price": 19,
+    "quantity": 1,
+    "units": "pack"
+  },
+  {
+    "id": 21,
+    "date": "2018-03-10",
+    "food": "Bread",
+    "price": 17,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 22,
+    "date": "2018-03-10",
+    "food": "Cheese",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 23,
+    "date": "2018-03-10",
+    "food": "Pasta",
+    "price": 15,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 24,
+    "date": "2018-03-10",
+    "food": "Pickles",
+    "price": 43,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 25,
+    "date": "2018-03-10",
+    "food": "Broccoli",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 26,
+    "date": "2018-03-10",
+    "food": "Chocolate",
+    "price": 15,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 27,
+    "date": "2018-03-10",
+    "food": "Apple",
+    "price": 19,
+    "quantity": 3,
+    "units": "item"
+  },
+  {
+    "id": 28,
+    "date": "2018-03-10",
+    "food": "Fish Ball",
+    "price": 89,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 29,
+    "date": "2018-03-10",
+    "food": "Freeze Vegetable",
+    "price": 76,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 30,
+    "date": "2018-03-10",
+    "food": "Patrica",
+    "price": 15,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 31,
+    "date": "2018-03-10",
+    "food": "Durian",
+    "price": 89,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 32,
+    "date": "2018-03-10",
+    "food": "Egg",
+    "price": 29,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 33,
+    "date": "2018-03-10",
+    "food": "Beer",
+    "price": 39,
+    "quantity": 12,
+    "units": "item"
+  },
+  {
+    "id": 34,
+    "date": "2018-03-15",
+    "food": "Wine",
+    "price": 128,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 35,
+    "date": "2018-03-15",
+    "food": "Water",
+    "price": 65,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 36,
+    "date": "2018-03-15",
+    "food": "Chicken",
+    "price": 85,
+    "quantity": 600,
+    "units": "g"
+  },
+  {
+    "id": 37,
+    "date": "2018-03-15",
+    "food": "Cheddar Cheese Powder",
+    "price": 82,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 38,
+    "date": "2018-03-15",
+    "food": "Honey",
+    "price": 53,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 39,
+    "date": "2018-03-15",
+    "food": "All-Purpose Flour",
+    "price": 60,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 40,
+    "date": "2018-03-15",
+    "food": "Coffee Beans",
+    "price": 76,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 41,
+    "date": "2018-03-15",
+    "food": "Salad Oil",
+    "price": 43,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 42,
+    "date": "2018-03-15",
+    "food": "Tomato Ketchup",
+    "price": 39,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 43,
+    "date": "2018-03-15",
+    "food": "Zucchini",
+    "price": 19,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 44,
+    "date": "2018-03-15",
+    "food": "Carrot",
+    "price": 15,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 45,
+    "date": "2018-03-15",
+    "food": "Rice",
+    "price": 130,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 46,
+    "date": "2018-03-15",
+    "food": "Pizza",
+    "price": 160,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 47,
+    "date": "2018-03-17",
+    "food": "Sprite",
+    "price": 15,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 48,
+    "date": "2018-03-17",
+    "food": "Cookie",
+    "price": 29,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 49,
+    "date": "2018-03-17",
+    "food": "Popcorn",
+    "price": 19,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 50,
+    "date": "2018-03-20",
+    "food": "Freeze Seafood",
+    "price": 120,
+    "quantity": 1000,
+    "units": "g"
+  },
+  {
+    "id": 51,
+    "date": "2018-03-20",
+    "food": "Egg",
+    "price": 23,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 52,
+    "date": "2018-03-20",
+    "food": "Bread",
+    "price": 19,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 53,
+    "date": "2018-03-20",
+    "food": "Squash",
+    "price": 32,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 54,
+    "date": "2018-03-20",
+    "food": "Cucumber",
+    "price": 18,
+    "quantity": 3,
+    "units": "item"
+  },
+  {
+    "id": 55,
+    "date": "2018-03-20",
+    "food": "Banana",
+    "price": 12,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 56,
+    "date": "2018-03-20",
+    "food": "Mushroom",
+    "price": 23,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 57,
+    "date": "2018-03-20",
+    "food": "Ginger",
+    "price": 19,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 58,
+    "date": "2018-03-20",
+    "food": "Eggplant",
+    "price": 23,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 59,
+    "date": "2018-03-25",
+    "food": "Strawberry",
+    "price": 26,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 60,
+    "date": "2018-03-25",
+    "food": "Chili Pepper",
+    "price": 23,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 61,
+    "date": "2018-03-25",
+    "food": "Onion",
+    "price": 25,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 62,
+    "date": "2018-03-25",
+    "food": "Salt",
+    "price": 2,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 63,
+    "date": "2018-03-25",
+    "food": "Beer",
+    "price": 36,
+    "quantity": 6,
+    "units": "item"
+  },
+  {
+    "id": 64,
+    "date": "2018-03-25",
+    "food": "Shrimp",
+    "price": 46,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 65,
+    "date": "2018-03-25",
+    "food": "Corn Flaks",
+    "price": 53,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 66,
+    "date": "2018-03-31",
+    "food": "Chicken",
+    "price": 150,
+    "quantity": 1000,
+    "units": "g"
+  },
+  {
+    "id": 67,
+    "date": "2018-03-31",
+    "food": "Beef Meat",
+    "price": 120,
+    "quantity": 800,
+    "units": "g"
+  },
+  {
+    "id": 68,
+    "date": "2018-03-31",
+    "food": "Spinach",
+    "price": 56,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 69,
+    "date": "2018-03-31",
+    "food": "Pasta",
+    "price": 24,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 70,
+    "date": "2018-03-31",
+    "food": "Durian",
+    "price": 89,
+    "quantity": 1,
+    "units": "item"
+  },
+  {
+    "id": 71,
+    "date": "2018-03-31",
+    "food": "Bread",
+    "price": 17,
+    "quantity": 2,
+    "units": "item"
+  },
+  {
+    "id": 72,
+    "date": "2018-03-31",
+    "food": "Ham",
+    "price": 39,
+    "quantity": 2,
+    "units": "item"
+  }
+]

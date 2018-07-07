@@ -3,3 +3,22 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.tab-item {
+  background: blue;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+}
+.active-tab {
+  background:rgb(0,0,122);
+}
+.container {
+  border: 1px solid black;
+}
