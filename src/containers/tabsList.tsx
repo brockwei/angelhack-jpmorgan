@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Dispatch, bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import store from 'src/reducers';
 
 // Interface
 
@@ -8,6 +9,7 @@ import { connect } from 'react-redux';
 
 // Actions
 import { changeTab } from 'src/actions';
+// import save from './save';
 
 interface IHomeLayoutProps {
     activeTab: number;
@@ -15,6 +17,16 @@ interface IHomeLayoutProps {
 }
 
 class TabsList extends React.Component<IHomeLayoutProps, {}> {
+    handleSaveClick = () => {
+        let data: any = store.getState();
+        let saveData: any = {
+            buyData: data.buyData,
+            consumeData: data.consumeData,
+            disposeData: data.disposeData,
+            leftoverData: data.leftoverData
+        };
+        localStorage.setItem('data', JSON.stringify(saveData));
+    }
     render() {
         return (
             <ul className="tabs-list">
@@ -31,6 +43,7 @@ class TabsList extends React.Component<IHomeLayoutProps, {}> {
                         );
                     })
                 }
+                <li onClick={this.handleSaveClick} className="save-button tab-item"><i className="fa fa-save" /></li>
             </ul>
         );
     }

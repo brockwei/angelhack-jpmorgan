@@ -1,0 +1,21 @@
+.history-list {
+    padding: 10px;
+    /* background: green; */
+}
+
+.history-item {
+    margin: 10px 0;
+    border-radius: 4px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+.history-date {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 3px;
+}
+.history-record {
+
+}

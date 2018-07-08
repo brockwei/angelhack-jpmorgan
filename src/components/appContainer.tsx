@@ -5,6 +5,7 @@ import BuyContainer from 'src/containers/buyContainer';
 import ConsumeContainer from 'src/containers/consumeContainer';
 import DisposeContainer from 'src/containers/disposeContainer';
 import StatisticsContainer from 'src/containers/statisticsContainer';
+import HistoryList from 'src/containers/historyList';
 
 export default (props: any) => {
     return (
@@ -15,6 +16,7 @@ export default (props: any) => {
                 props.activeTab === 2 ? <DisposeContainer /> :
                 props.activeTab === 3 ? <StatisticsContainer /> : null
             }
+            <HistoryList />
         </div>
     );
 };

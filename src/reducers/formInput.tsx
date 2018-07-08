@@ -5,7 +5,8 @@ const defaultForm = {
     price: 0,
     quantity: 0,
     date: (new Date()).toISOString().substring(0, 10),
-    units: 'g'
+    units: 'g',
+    percentage: 0,
 };
 
 export const formInput = (state: IFormInputProps = defaultForm, action: { type: string, formInput: IFormInputProps }) => {
@@ -20,7 +21,8 @@ export const formInput = (state: IFormInputProps = defaultForm, action: { type: 
                 ...state,
                 food: '',
                 price: 0,
-                quantity: 0
+                quantity: 0,
+                percentage: 0
             };
         default:
             return state;
