@@ -28,17 +28,25 @@ class HomeLayout extends React.Component<IHomeLayoutProps, {}> {
     componentDidMount() {
         let data = localStorage.getItem('data');
         let dataObject = JSON.parse(data !== null ? data : '{}');
-        for (var i = 0; i < dataObject.buyData.length; i++) {
-            this.props.addBuyData(dataObject.buyData[i]);
+        if (dataObject.buyData) {
+            for (var i = 0; i < dataObject.buyData.length; i++) {
+                this.props.addBuyData(dataObject.buyData[i]);
+            }
         }
-        for (var j = 0; j < dataObject.consumeData.length; j++) {
-            this.props.addConsumeData(dataObject.consumeData[j]);
+        if (dataObject.consumeData) {
+            for (var j = 0; j < dataObject.consumeData.length; j++) {
+                this.props.addConsumeData(dataObject.consumeData[j]);
+            }
         }
-        for (var k = 0; k < dataObject.disposeData.length; k++) {
-            this.props.addDisposeData(dataObject.disposeData[k]);
+        if (dataObject.disposeData) {
+            for (var k = 0; k < dataObject.disposeData.length; k++) {
+                this.props.addDisposeData(dataObject.disposeData[k]);
+            }
         }
-        for (var l = 0; l < dataObject.leftoverData.length; l++) {
-            this.props.addLeftoverData(dataObject.leftoverData[l]);
+        if (dataObject.leftoverData) {
+            for (var l = 0; l < dataObject.leftoverData.length; l++) {
+                this.props.addLeftoverData(dataObject.leftoverData[l]);
+            }
         }
     }
     render() {
